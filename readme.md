@@ -74,7 +74,7 @@ CALL 'CBLTDLI' USING ISRT-FUNC, IOPCB, OUTPUT-MESSAGE
 
 **5. Loop until QC status**
 
-Repeats steps 2–4 until IMS returns a QC status code indicating the application needs to terminate. This is the typical behavior for an application that processes transaction messages for a transaction code defined as wait for input (WFI).
+Repeats steps 2–4 until IMS returns a QC status code indicating the application needs to terminate. 
 
 For simplicity, the name of the COBOL program and the IMS transaction are both `CBLPARTS` — note that they do not have to be the same. The full name of the Java class is `mpr.apps.PartsDb` and the method called is `handle(ByteBuffer buf)`, located in `mpr/apps/PartsDb.java`.
 
