@@ -1,5 +1,7 @@
 # ims-cobol-to-java
 
+# Extending COBOL applications with Java
+
 ## Getting Started
 
 In this sample program, you will set up an IMS MPR region to run a COBOL application that uses the Java Native Interface (JNI) to communicate with Java.
